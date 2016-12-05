@@ -73,6 +73,10 @@ body {
   margin: auto;
 }
 
+.alert {
+  margin: 20px auto;
+}
+
 .toggle-button {
   background-color: white;
   margin: 5px 0;
