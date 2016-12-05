@@ -1,0 +1,120 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+  background-color: white;
+  font-family: Arial;
+  height: 80px;
+  width: 1000px;
+  margin: auto;
+  padding: 5px;
+}
+
+main {
+  text-align: center;
+  font-family: Arial;
+}
+
+#selector {
+  height: 60px;
+  width: 330px;
+  margin: auto;
+}
+
+#selector h3 {
+  font-size: 40px;
+  display: inline;
+  padding-left: 5px;
+}
+
+#board {
+  height: 330px;
+  width: 330px;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+}
+
+.square-taken {
+  cursor: default;
+}
+
+.square h3 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: -40px;
+}
+
+#reset {
+  margin: auto;
+  width: 150px;
+}
+
+#reset-button {
+  background-color: #FFC300;
+  height: 50px;
+  width: 150px;
+  margin: auto;
+}
+
+.toggle-button {
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 20px;
+  border: 2px solid #D0D0D0;
+  height: 24px;
+  cursor: pointer;
+  width: 50px;
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+
+.toggle-button button {
+  cursor: pointer;
+  outline: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  float: left;
+  margin: -3px 0 0 -3px;
+  border: 2px solid #D0D0D0;
+  transition: left 0.3s;
+}
+
+.toggle-button-selected {
+  background-color: #83B152;
+  border: 2px solid #7DA652;
+}
+
+.toggle-button-selected button {
+  left: 26px;
+  top: 0;
+  margin: 0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
