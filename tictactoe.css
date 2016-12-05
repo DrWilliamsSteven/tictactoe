@@ -7,8 +7,8 @@ body {
   font-family: Arial;
   height: 80px;
   width: 1000px;
-  margin: auto auto 30px auto;
-
+  margin: auto;
+  margin-bottom: 30px;
   padding: 5px;
 }
 
