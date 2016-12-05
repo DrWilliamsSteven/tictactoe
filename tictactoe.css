@@ -2,7 +2,7 @@ body {
   background-color: lightblue;
 }
 
-header {
+#header {
   background-color: white;
   font-family: Arial;
   height: 80px;
@@ -11,7 +11,7 @@ header {
   padding: 5px;
 }
 
-main {
+#main {
   text-align: center;
   font-family: Arial;
 }
