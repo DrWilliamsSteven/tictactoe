@@ -8,6 +8,7 @@ body {
   height: 80px;
   width: 1000px;
   margin: auto;
+  margin-bottom: 30px;
   padding: 5px;
 }
 
@@ -33,6 +34,7 @@ body {
   width: 330px;
   background-color: white;
   margin: auto;
+  margin-bottom: 30px;
   border-radius: 5px;
   text-align: center;
   padding-left: 30px;
